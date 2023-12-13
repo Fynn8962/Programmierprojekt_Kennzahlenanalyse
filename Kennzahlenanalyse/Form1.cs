@@ -21,11 +21,11 @@ namespace Kennzahlenanalyse
             btnEigenfinanzierung.Visible = false;
             btnFremdfinanzierungsgrad.Visible = false;
             btnSelbstfinanzierungsgrad.Visible = false;
-            btnIntensitätdesUmlaufvermögen.Visible = false;
-            IntensitätdesAnlagevermögens.Visible = false;
-            Liquiditätsgrad1.Visible = false;
-            btnLiquiditätsgrad2.Visible = false;
-            btnLiquiditätsgrad3.Visible = false;
+            btnIntensitÃ¤tdesUmlaufvermÃ¶gen.Visible = false;
+            IntensitÃ¤tdesAnlagevermÃ¶gens.Visible = false;
+            LiquiditÃ¤tsgrad1.Visible = false;
+            btnLiquiditÃ¤tsgrad2.Visible = false;
+            btnLiquiditÃ¤tsgrad3.Visible = false;
             btnAnlagedeckungsgrad1.Visible = false;
             btnAnlagedeckungsgrad2.Visible = false;
             btnEigenkapitalrendite.Visible = false;
@@ -35,7 +35,7 @@ namespace Kennzahlenanalyse
 
             label1.Visible = false;
             label2.Visible = false;
-            btnZurück.Visible = true;
+            btnZurÃ¼ck.Visible = true;
             btnBerechnen.Visible = false;
             lblBeurteilung.Visible = false;
             lblkennzahlinfo.Visible = true;
@@ -47,11 +47,11 @@ namespace Kennzahlenanalyse
             btnEigenfinanzierung.Visible = true;
             btnFremdfinanzierungsgrad.Visible = true;
             btnSelbstfinanzierungsgrad.Visible = true;
-            btnIntensitätdesUmlaufvermögen.Visible = true;
-            IntensitätdesAnlagevermögens.Visible = true;
-            Liquiditätsgrad1.Visible = true;
-            btnLiquiditätsgrad2.Visible = true;
-            btnLiquiditätsgrad3.Visible = true;
+            btnIntensitÃ¤tdesUmlaufvermÃ¶gen.Visible = true;
+            IntensitÃ¤tdesAnlagevermÃ¶gens.Visible = true;
+            LiquiditÃ¤tsgrad1.Visible = true;
+            btnLiquiditÃ¤tsgrad2.Visible = true;
+            btnLiquiditÃ¤tsgrad3.Visible = true;
             btnAnlagedeckungsgrad1.Visible = true;
             btnAnlagedeckungsgrad2.Visible = true;
             btnEigenkapitalrendite.Visible = true;
@@ -63,7 +63,7 @@ namespace Kennzahlenanalyse
 
             label1.Visible = true;
             label2.Visible = true;
-            btnZurück.Visible = false;
+            btnZurÃ¼ck.Visible = false;
             Eingabe1.Visible = false;
             Eingabe2.Visible = false;
             Eingabe3.Visible = false;
@@ -79,7 +79,7 @@ namespace Kennzahlenanalyse
             Eingabe3.Text = "";
 
         }
-        private void btnZurück_Click(object sender, EventArgs e)
+        private void btnZurÃ¼ck_Click(object sender, EventArgs e)
         {
             Main();
         }
@@ -142,47 +142,47 @@ namespace Kennzahlenanalyse
         }
 
 
-        private void btnIntensitätdesUmlaufvermögen_Click(object sender, EventArgs e)
+        private void btnIntensitÃ¤tdesUmlaufvermÃ¶gen_Click(object sender, EventArgs e)
         {
             ClearAll();
-            lblkennzahlinfo.Text = "Intensität des Umlaufvermögens";
+            lblkennzahlinfo.Text = "IntensitÃ¤t des UmlaufvermÃ¶gens";
             btnBerechnen.Visible = true;
             Text1.Visible = true;
             Eingabe1.Visible = true;
-            Text1.Text = "Umlaufvermögen";
+            Text1.Text = "UmlaufvermÃ¶gen";
 
             Text2.Visible = true;
             Eingabe2.Visible = true;
-            Text2.Text = "Gesamtvermögen";
+            Text2.Text = "GesamtvermÃ¶gen";
 
             Kennzahl = 4;
 
         }
 
-        private void IntensitätdesAnlagevermögens_Click(object sender, EventArgs e)
+        private void IntensitÃ¤tdesAnlagevermÃ¶gens_Click(object sender, EventArgs e)
         {
             ClearAll();
-            lblkennzahlinfo.Text = "Intensität des Anlagevermögens";
+            lblkennzahlinfo.Text = "IntensitÃ¤t des AnlagevermÃ¶gens";
             btnBerechnen.Visible = true;
             Text1.Visible = true;
             Eingabe1.Visible = true;
-            Text1.Text = "Anlagevermögen";
+            Text1.Text = "AnlagevermÃ¶gen";
 
             Text2.Visible = true;
             Eingabe2.Visible = true;
-            Text2.Text = "Gesamtvermögen";
+            Text2.Text = "GesamtvermÃ¶gen";
 
             Kennzahl = 5;
         }
 
-        private void Liquiditätsgrad1_Click(object sender, EventArgs e)
+        private void LiquiditÃ¤tsgrad1_Click(object sender, EventArgs e)
         {
             ClearAll();
-            lblkennzahlinfo.Text = "Liquiditätsgrad 1";
+            lblkennzahlinfo.Text = "LiquiditÃ¤tsgrad 1";
             btnBerechnen.Visible = true;
             Text1.Visible = true;
             Eingabe1.Visible = true;
-            Text1.Text = "Flüssige Mittel";
+            Text1.Text = "FlÃ¼ssige Mittel";
 
             Text2.Visible = true;
             Eingabe2.Visible = true;
@@ -191,14 +191,14 @@ namespace Kennzahlenanalyse
             Kennzahl = 6;
         }
 
-        private void btnLiquiditätsgrad2_Click(object sender, EventArgs e)
+        private void btnLiquiditÃ¤tsgrad2_Click(object sender, EventArgs e)
         {
             ClearAll();
-            lblkennzahlinfo.Text = "Liquiditätsgrad 2";
+            lblkennzahlinfo.Text = "LiquiditÃ¤tsgrad 2";
             btnBerechnen.Visible = true;
             Text1.Visible = true;
             Eingabe1.Visible = true;
-            Text1.Text = "Flüssige Mittel";
+            Text1.Text = "FlÃ¼ssige Mittel";
 
             Text2.Visible = true;
             Eingabe2.Visible = true;
@@ -211,14 +211,14 @@ namespace Kennzahlenanalyse
             Kennzahl = 7;
         }
 
-        private void btnLiquiditätsgrad3_Click(object sender, EventArgs e)
+        private void btnLiquiditÃ¤tsgrad3_Click(object sender, EventArgs e)
         {
             ClearAll();
-            lblkennzahlinfo.Text = "Liquiditätsgrad 3";
+            lblkennzahlinfo.Text = "LiquiditÃ¤tsgrad 3";
             btnBerechnen.Visible = true;
             Text1.Visible = true;
             Eingabe1.Visible = true;
-            Text1.Text = "Umlaufvermögen";
+            Text1.Text = "UmlaufvermÃ¶gen";
 
             Text2.Visible = true;
             Eingabe2.Visible = true;
@@ -238,7 +238,7 @@ namespace Kennzahlenanalyse
 
             Text2.Visible = true;
             Eingabe2.Visible = true;
-            Text2.Text = "Anlagevermögen";
+            Text2.Text = "AnlagevermÃ¶gen";
 
             Kennzahl = 9;
         }
@@ -258,7 +258,7 @@ namespace Kennzahlenanalyse
 
             Text3.Visible = true;
             Eingabe3.Visible = true;
-            Text3.Text = "Anlagevermögen";
+            Text3.Text = "AnlagevermÃ¶gen";
 
             Kennzahl = 10;
         }
@@ -482,21 +482,21 @@ namespace Kennzahlenanalyse
                 case 1:
                     if (ergebniss >= 30)
                     {
-                        lblBeurteilung.Text = "genügend";
+                        lblBeurteilung.Text = "genÃ¼gend";
                     }
                     else
                     {
-                        lblBeurteilung.Text = "ungenügend";
+                        lblBeurteilung.Text = "ungenÃ¼gend";
                     }
                     break;
                 case 2:
                     if (ergebniss <= 70)
                     {
-                        lblBeurteilung.Text = "genügend";
+                        lblBeurteilung.Text = "genÃ¼gend";
                     }
                     else
                     {
-                        lblBeurteilung.Text = "ungenügend";
+                        lblBeurteilung.Text = "ungenÃ¼gend";
                     }
                     break;
                 case 3:
@@ -509,71 +509,71 @@ namespace Kennzahlenanalyse
                 case 6:
                     if (ergebniss >= 20)
                     {
-                        lblBeurteilung.Text = "genügend";
+                        lblBeurteilung.Text = "genÃ¼gend";
                     }
                     else
                     {
-                        lblBeurteilung.Text = "ungenügend";
+                        lblBeurteilung.Text = "ungenÃ¼gend";
                     }
                     break;
                 case 7:
                     if (ergebniss >= 100)
                     {
-                        lblBeurteilung.Text = "genügend";
+                        lblBeurteilung.Text = "genÃ¼gend";
                     }
                     else
                     {
-                        lblBeurteilung.Text = "ungenügend";
+                        lblBeurteilung.Text = "ungenÃ¼gend";
                     }
                     break;
                 case 8:
                     if (ergebniss >= 150)
                     {
-                        lblBeurteilung.Text = "genügend";
+                        lblBeurteilung.Text = "genÃ¼gend";
                     }
                     else
                     {
-                        lblBeurteilung.Text = "ungenügend";
+                        lblBeurteilung.Text = "ungenÃ¼gend";
                     }
                     break;
                 case 9:
                     if (ergebniss >= 75)
                     {
-                        lblBeurteilung.Text = "genügend";
+                        lblBeurteilung.Text = "genÃ¼gend";
                     }
                     else
                     {
-                        lblBeurteilung.Text = "ungenügend";
+                        lblBeurteilung.Text = "ungenÃ¼gend";
                     }
                     break;
                 case 10:
                     if (ergebniss >= 100)
                     {
-                        lblBeurteilung.Text = "genügend";
+                        lblBeurteilung.Text = "genÃ¼gend";
                     }
                     else
                     {
-                        lblBeurteilung.Text = "ungenügend";
+                        lblBeurteilung.Text = "ungenÃ¼gend";
                     }
                     break;
                 case 11:
                     if (ergebniss >= 8)
                     {
-                        lblBeurteilung.Text = "genügend";
+                        lblBeurteilung.Text = "genÃ¼gend";
                     }
                     else
                     {
-                        lblBeurteilung.Text = "ungenügend";
+                        lblBeurteilung.Text = "ungenÃ¼gend";
                     }
                     break;
                 case 12:
                     if (ergebniss >= 6)
                     {
-                        lblBeurteilung.Text = "genügend";
+                        lblBeurteilung.Text = "genÃ¼gend";
                     }
                     else
                     {
-                        lblBeurteilung.Text = "ungenügend";
+                        lblBeurteilung.Text = "ungenÃ¼gend";
                     }
                     break;
                 case 13:
@@ -582,13 +582,13 @@ namespace Kennzahlenanalyse
 
 
             }
-            if (lblBeurteilung.Text == "genügend")
+            if (lblBeurteilung.Text == "genÃ¼gend")
             {
                 lblBeurteilung.Visible = true;
                 lblBeurteilung.ForeColor = System.Drawing.Color.Green;
 
             }
-            else if (lblBeurteilung.Text == "ungenügend")
+            else if (lblBeurteilung.Text == "ungenÃ¼gend")
             {
                 lblBeurteilung.Visible = true;
                 lblBeurteilung.ForeColor = System.Drawing.Color.Red;
